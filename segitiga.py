@@ -14,4 +14,4 @@ def segitiga(number):
         print() 
         # print(f'{start, end, i%2}')
 
-segitiga(10)
+segitiga(11)
