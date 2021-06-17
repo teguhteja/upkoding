@@ -1,0 +1,1 @@
+export PYTHONPATH="/home/teguhteja/P/PythonProject/upkoding"
