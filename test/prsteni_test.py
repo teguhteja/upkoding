@@ -1,4 +1,4 @@
-import prsteni as app
+from upkoding import prsteni as app
  
 def test_app():
     # write your input
