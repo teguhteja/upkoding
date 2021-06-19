@@ -1,4 +1,4 @@
-import tri as app
+import text_warp as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -19,8 +19,4 @@ def my_app(my_input, my_output, my_test):
 
 
 def test_app1():
-    my_app(['5 3 8'], ['5+3=8'], app.tri)
-
-
-def test_app2():
-    my_app(['5 15 3'], ['5=15/3'], app.tri)
+    my_app(['ABCDEFGHIJKLIMNOQRSTUVWXYZ', '4'], ['ABCD\nEFGH\nIJKL\nIMNO\nQRST\nUVWX\nYZ'], app.main)

@@ -13,5 +13,9 @@
     "python.linting.enabled": true,
     "python.testing.pytestArgs": [
         "test"
-    ]
+    ],
+    "python.linting.flake8Args": [ 
+       "--max-line-length=220",
+            "--ignore=E402",
+   ],
 }
