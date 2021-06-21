@@ -1,4 +1,4 @@
-import designer_door_mat as app
+import alphabet_rangoli as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -26,6 +26,6 @@ def output_files(file):
 
 
 def test_app1():
-    output = output_files('ddm.txt')
+    output = output_files('rangoli.txt')
     output = output.split('\n')
-    my_app(['9 27'], output, app.main)
+    my_app(['5'], output, app.main)
