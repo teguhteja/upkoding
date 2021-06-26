@@ -1,4 +1,4 @@
-import tri as app
+import upkoding.tri as app
 
 
 def my_app(my_input, my_output, my_test):

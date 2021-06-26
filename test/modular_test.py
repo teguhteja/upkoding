@@ -1,4 +1,4 @@
-import modular as app
+import upkoding.modular as app
 
 
 def my_app(my_input, my_output, my_test):

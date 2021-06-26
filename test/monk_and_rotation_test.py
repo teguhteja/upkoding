@@ -1,5 +1,5 @@
 # 1. change the name files
-import monk_and_rotation as app
+import upkoding.monk_and_rotation as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -27,8 +27,8 @@ def read_files(file):
 
 
 def test_app1():
-    #2 edit input and output files. set output in apps in string
-    #3 change name files input and output
-    input = read_files('i/mar.in')
-    output = read_files('o/mar.ou')
-    my_app(input, output, app.main)
+    # 2 edit input and output files. set output in string
+    # 3 change name files input and output. rec using abbrevation
+    input_file = read_files('i/mar.in')
+    output_file = read_files('o/mar.ou')
+    my_app(input_file, output_file, app.main)

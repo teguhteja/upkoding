@@ -1,4 +1,4 @@
-import ptice as app
+import upkoding.ptice as app
 
 
 def my_app(my_input, my_output, my_test):

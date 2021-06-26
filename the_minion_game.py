@@ -10,7 +10,7 @@ def minion_game(s):
             kevsc += (len(s) - i)
         else:
             stusc += (len(s) - i)
-        print(f'{s[i]} - {kevsc} - {stusc}')
+        # print(f'{s[i]} - {kevsc} - {stusc}')
 
     if kevsc > stusc:
         print(f"Kevin {kevsc}")

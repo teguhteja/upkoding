@@ -1,31 +1,31 @@
-import designer_door_mat as app
+# import upkoding.designer_door_mat as app
 
 
-def my_app(my_input, my_output, my_test):
-    # write your input
-    input_values = my_input
-    output = []
+# def my_app(my_input, my_output, my_test):
+#     # write your input
+#     input_values = my_input
+#     output = []
 
-    def mock_input(s):
-        # output.append(s)
-        return input_values.pop(0)
-    app.input = mock_input
-    app.print = lambda s: output.append(s)
+#     def mock_input(s):
+#         # output.append(s)
+#         return input_values.pop(0)
+#     app.input = mock_input
+#     app.print = lambda s: output.append(s)
 
-    my_test()
+#     my_test()
 
-    # write your output
-    assert output == my_output
-
-
-def output_files(file):
-    with open(file) as f:
-        contents = f.read()
-        f.close()
-    return contents
+#     # write your output
+#     assert output == my_output
 
 
-def test_app1():
-    output = output_files('ddm.txt')
-    output = output.split('\n')
-    my_app(['9 27'], output, app.main)
+# def output_files(file):
+#     with open(file) as f:
+#         contents = f.read()
+#         f.close()
+#     return contents
+
+
+# def test_app1():
+#     output = output_files('ddm.txt')
+#     output = output.split('\n')
+#     my_app(['9 27'], output, app.main)

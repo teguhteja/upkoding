@@ -1,4 +1,4 @@
-import upkoding.skocimis as app
+import upkoding.monk_inversions as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -18,9 +18,14 @@ def my_app(my_input, my_output, my_test):
     assert output == my_output
 
 
+def read_files(file):
+    with open(file) as f:
+        contents = f.read()
+        f.close()
+    return contents.split('\n')
+
+
 def test_app1():
-    my_app(['2 3 5'], [1], app.main)
-
-
-def test_app2():
-    my_app(['3 5 9'], [3], app.main)
+    input_file = read_files('i/mi.in')
+    output_file = read_files('o/mi.ou')
+    my_app(input_file, output_file, app.main)

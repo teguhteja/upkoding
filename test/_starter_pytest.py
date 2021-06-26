@@ -1,4 +1,5 @@
-import capitalize as app
+# 1. change the name files
+import _starter as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -18,20 +19,16 @@ def my_app(my_input, my_output, my_test):
     assert output == my_output
 
 
-def output_files(file):
+def read_files(file):
     with open(file) as f:
         contents = f.read()
         f.close()
-    return contents
+    return contents.split('\n')
 
 
 def test_app1():
-    # output = output_files('rangoli.txt')
-    # output = output.split('\n')
-    my_app(['chris alan'], ['Chris Alan'], app.main)
-
-
-def test_app2():
-    # output = output_files('rangoli.txt')
-    # output = output.split('\n')
-    my_app(['hello   world  lol'], ['Hello   World  Lol'], app.main)
+    # 2 edit input and output files. set output in string
+    # 3 change name files input and output. rec using abbrevation
+    input_file = read_files('i/starter.in')
+    output_file = read_files('o/starter.ou')
+    my_app(input_file, output_file, app.main)

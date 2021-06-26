@@ -1,4 +1,4 @@
-import alphabet_rangoli as app
+import upkoding.alphabet_rangoli as app
 
 
 def my_app(my_input, my_output, my_test):

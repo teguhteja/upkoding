@@ -1,4 +1,4 @@
-import _starter as app
+import upkoding.capitalize as app
 
 
 def my_app(my_input, my_output, my_test):
@@ -18,14 +18,20 @@ def my_app(my_input, my_output, my_test):
     assert output == my_output
 
 
-def read_files(file):
+def output_files(file):
     with open(file) as f:
         contents = f.read()
         f.close()
-    return contents.split('\n')
+    return contents
 
 
 def test_app1():
-    input = read_files('i/starter.in')
-    output = read_files('o/starter.ou')
-    my_app(input, output, app.main)
+    # output = output_files('rangoli.txt')
+    # output = output.split('\n')
+    my_app(['chris alan'], ['Chris Alan'], app.main)
+
+
+def test_app2():
+    # output = output_files('rangoli.txt')
+    # output = output.split('\n')
+    my_app(['hello   world  lol'], ['Hello   World  Lol'], app.main)
