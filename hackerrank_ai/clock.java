@@ -8,18 +8,18 @@ class secondChance
         int frames = 0;
  
         //Test 1:
-        reference_string = "3 4 2 6 1 2 6 5 1 5 8 2 1 4 7 1 8 2 8 6";
-        frames = 3;
+        reference_string = "6 5 7 5 3 6 3 8 4 8 3 4 8 4 1 3 1 7 2 5";
+        frames = 4;
          
         //Output is 15
         printHitsAndFaults(reference_string,frames);
          
         // Test 2:
-        reference_string = "5 4 1 3 1 2 7 5 2 1 8 7 3 1 6 5 3 6 7 1";
-        frames = 4;
+        // reference_string = "5 4 1 3 1 2 7 5 2 1 8 7 3 1 6 5 3 6 7 1";
+        // frames = 4;
          
-        //Output is 15 // correct 14
-        printHitsAndFaults(reference_string,frames);
+        // //Output is 15 // correct 14
+        // printHitsAndFaults(reference_string,frames);
          
     }
      

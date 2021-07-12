@@ -3,7 +3,7 @@ BLOCKNUMBER = 4
 
 # Download Data
 def loadData():
-    F = open('data')
+    F = open('data_fifo')
     data = F.read().split(' ')
     F.close()
     return data

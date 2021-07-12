@@ -1,0 +1,19 @@
+TEACHER_LOGIN="asmyk"
+
+STUDENT_LOGIN="s13624"
+
+PROTOCOL="http"
+
+SEPARATOR="://"
+
+PAGE="www.pjwstk.edu.pl"
+
+PREFIX="SOP"
+
+PREFIX2="hot"
+
+YEAR="2021"
+
+SEAZON="summer"
+
+echo "$PROTOCOL$SEPARATOR$PAGE/"~"$TEACHER_LOGIN/$PREFIX/$PREFIX2/$YEAR$SEAZON/$STUDENT_LOGIN/task.txt.html"
